@@ -46,7 +46,7 @@ function App() {
     )
   },
   {
-    path: "/Recipe-Finder/rescipe-detail/:id",
+    path: "/rescipe-detail/:id",
     element: <Rescipemade />
   }
 ],
