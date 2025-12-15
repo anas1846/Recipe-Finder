@@ -1,0 +1,22 @@
+.navlink{
+
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+padding-bottom: 10px;
+}
+.navlink.active{
+    border-bottom: 2px solid yellow;
+    
+}
+
+.tab-pages{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+     font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 40px;
+    
+}

@@ -1,0 +1,74 @@
+.grid {
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+ align-items: center;
+}
+
+.grid .card {
+    display: flex;
+   
+    align-items: center;
+  width: 20%; /* 4 cards per row (100/4 ≈ 25 but leave some space) */
+  margin-bottom: 20px;
+}
+
+.card img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+ filter: brightness(0.5);
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+   margin-bottom: 20px;
+   
+
+}
+.card-content{
+  
+    position: absolute;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+  
+   
+    
+}
+
+.card-content p{
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.603);
+    margin-top: 10px;
+    width: 240px;
+    border-radius: 10px;
+    text-align: center;
+      cursor: pointer;
+
+  opacity: 0;           /* Hidden */
+ /* Thora neeche */
+  transition: 0.3s ease;
+}
+.card-content:hover p{
+      opacity: 1;
+   /* Up motion */
+}
+
+h3{
+    padding-left: 30px;
+    width: 210px;
+}
+
+.detail{
+  color: white;
+  text-decoration: none;
+}
+.checkbox{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
