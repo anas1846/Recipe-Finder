@@ -16,7 +16,7 @@
 .card img{
     height: 250px;
     width: 250px;
-    border-radius: 20px;
+    border-radius: 18px;
     position: relative;
  filter: brightness(0.5);
     
@@ -34,16 +34,18 @@
     position: absolute;
     font-family: 'Sansita Swashed', cursive;
     color: white;
-  
+    display: flex;
+  align-items: center;
+  flex-direction: column;
    
     
 }
 
 .card-content p{
-    font-size: 18px;
+    font-size: 19px;
     background-color: rgba(0, 0, 0, 0.603);
     margin-top: 10px;
-    width: 240px;
+    width: 242px;
     border-radius: 10px;
     text-align: center;
       cursor: pointer;
@@ -59,7 +61,7 @@
 
 h3{
     padding-left: 30px;
-    width: 210px;
+    width: 190px;
 }
 
 .detail{
@@ -69,6 +71,7 @@ h3{
 .checkbox{
   display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: space-around;
+ 
 
 }
