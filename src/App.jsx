@@ -6,6 +6,7 @@ import TopRecipes from "./Top Recipes";
 import FavourateRecipes from "./favourateRecipes";
 import Rescipemade from "./rescipe-made"
 import { createBrowserRouter,RouterProvider} from 'react-router-dom';
+import './App.css';
 
 function App() {
 
